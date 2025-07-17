@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/RA_components/", // деплой на GitHub Pages
+  base: "https://aleksandr861.github.io/React_Components/", // деплой на GitHub Pages
   server: {
     open: true, // открытие вкладки браузера
     // port: 8080, // изменение порта
